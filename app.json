@@ -3,10 +3,6 @@
     "MY_VAR": {
       "description": "A very special variable for app use.",
       "required": true
-    },
-    "WEB_CONCURRENCY": {
-      "description": "The number of processes to run.",
-      "value": "5"
     }
   },
   "buildpacks": [
