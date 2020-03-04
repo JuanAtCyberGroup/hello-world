@@ -4,7 +4,7 @@
       "description": "A very special variable for app use.",
       "required": true
     },
-    "DATABASE_TO_COPY_FROM": {
+    "DATABASE_URL_TO_COPY": {
       "description": "URL in which a database will be copied from.",
       "required": true
     }

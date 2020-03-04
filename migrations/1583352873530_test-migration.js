@@ -10,5 +10,4 @@ exports.up = pgm => {
       default: pgm.func("current_timestamp")
     }
   });
-  pgm.createIndex("posts", "userId");
 };
