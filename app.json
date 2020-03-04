@@ -1,0 +1,28 @@
+{
+  "env": {
+    "MY_VAR": {
+      "description": "A very special variable for app use.",
+      "required": true
+    },
+    "DATABASE_TO_COPY_FROM": {
+      "description": "URL in which a database will be copied from.",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}

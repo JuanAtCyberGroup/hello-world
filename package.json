@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "migrate": "node-pg-migrate"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/JuanAtCyberGroup/hello-world/issues"
   },
-  "homepage": "https://github.com/JuanAtCyberGroup/hello-world#readme"
+  "homepage": "https://github.com/JuanAtCyberGroup/hello-world#readme",
+  "dependencies": {
+    "node-pg-migrate": "^4.2.2",
+    "pg": "^7.18.2"
+  }
 }
