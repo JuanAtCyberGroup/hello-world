@@ -4,9 +4,9 @@
       "description": "A very special variable for app use.",
       "required": true
     },
-    "DATABASE_URL_TO_COPY": {
-      "description": "URL in which a database will be copied from.",
-      "required": true
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "5"
     }
   },
   "buildpacks": [
