@@ -1,8 +1,15 @@
 {
+  "name": "cygrp-hello-world",
+  "description": "This app does one little thing, and does it well.",
+  "stack": "heroku-18",
   "env": {
     "MY_VAR": {
       "description": "A very special variable for app use.",
       "value": "Hello world!"
+    },
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "1"
     }
   },
   "buildpacks": [
@@ -16,9 +23,5 @@
       "size": "free"
     }
   },
-  "addons": [
-    {
-      "plan": "heroku-postgresql:hobby-dev"
-    }
-  ]
+  "addons": ["heroku-postgresql:hobby-dev"]
 }
