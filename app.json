@@ -1,0 +1,24 @@
+{
+  "env": {
+    "MY_VAR": {
+      "description": "A very special variable for app use.",
+      "value": "Hello world!"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}
