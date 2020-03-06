@@ -2,7 +2,7 @@
   "env": {
     "MY_VAR": {
       "description": "A very special variable for app use.",
-      "required": true
+      "value": "Hello world!"
     }
   },
   "buildpacks": [
