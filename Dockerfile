@@ -6,4 +6,6 @@ COPY package*.json ./
 
 RUN npm install
 
+COPY . /user/src/app
+
 CMD "npm run start"
